@@ -1,0 +1,19 @@
+# Core
+numpy
+pandas
+
+# PyTorch (CPU by default; see note below for CUDA)
+torch
+torchvision
+torchaudio
+
+# ML / Utilities
+scikit-learn
+
+# HuggingFace
+transformers
+peft
+accelerate
+datasets
+
+tqdm

@@ -1,0 +1,76 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+.env/
+.env*/
+.venv/
+pip-wheel-metadata/
+
+
+
+# =========================
+# Dataset / Data
+# =========================
+dataset/
+*.csv
+*.h5
+*.npz
+
+# =========================
+# Images / Chips
+# =========================
+chips/
+images/
+*.jpg
+*.png
+*.tif
+*.tiff
+
+
+# =========================
+# Config overrides (local)
+# =========================
+config_local.py
+*.yaml
+*.yml
+
+# =========================
+# Jupyter / IPython
+# =========================
+.ipynb_checkpoints/
+*.ipynb
+
+# =========================
+# IDEs / Editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Debug / temp
+# =========================
+*.log
+tmp/
+temp/
