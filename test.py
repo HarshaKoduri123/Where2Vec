@@ -120,8 +120,8 @@ def run():
     sim = img_embs @ txt_embs.T
 
     metrics = {
-        "Image→Text": retrieval_metrics(sim),
-        "Text→Image": retrieval_metrics(sim.T),
+        "Image->Text": retrieval_metrics(sim),
+        "Text->Image": retrieval_metrics(sim.T),
         "NumSamples": len(img_embs),
         "Checkpoint": str(ckpt)
     }

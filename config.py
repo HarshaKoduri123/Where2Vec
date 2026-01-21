@@ -10,8 +10,8 @@ DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 # =====================
 # Paths
 # =====================
-CSV_PATH  = r"C:\Users\PRASANTH\where2vec\data\multimodal_dataset.csv"
-CHIP_ROOT = r"C:\Users\PRASANTH\where2vec\data\s2_chips"
+CSV_PATH  = r"C:\Users\PRASANTH\where2vec\dataset\multimodal_dataset.csv"
+CHIP_ROOT = r"C:\Users\PRASANTH\where2vec\dataset\s2_chips"
 
 OUTPUT_DIR = Path("outputs")
 CKPT_DIR   = OUTPUT_DIR / "checkpoints"
@@ -58,4 +58,4 @@ SAVE_EVERY = 50
 # Pretrained
 # =====================
 USE_PRETRAINED = False
-PRETRAINED_PATH = "outputs/checkpoints/best_epoch_1.pt"
+PRETRAINED_PATH = "outputs/checkpoints/best_epoch_150.pt"

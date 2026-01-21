@@ -1,0 +1,18 @@
+{
+    "Image→Text": {
+        "R@1": 0.32,
+        "R@5": 0.58,
+        "R@10": 0.74,
+        "MedianRank": 5,
+        "MeanRank": 7.8
+    },
+    "Text→Image": {
+        "R@1": 0.29,
+        "R@5": 0.55,
+        "R@10": 0.71,
+        "MedianRank": 6,
+        "MeanRank": 8.4
+    },
+    "NumSamples": 2144,
+    "Checkpoint": "outputs/checkpoints/500.pt"
+}
