@@ -56,4 +56,6 @@ python train.py
 
 To evaluate a trained model:
 
+```bash
 python evaluate.py
+```
